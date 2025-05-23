@@ -16,7 +16,7 @@ Installation & Setup
 
 1. Clone & install dependencies
 
-git clone <repo_url>
+git clone https://github.com/Partima-jain/SKU-Mapping
 cd sku-mapping-dashboard
 pip install -r requirements.txt
 
