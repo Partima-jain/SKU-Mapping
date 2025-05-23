@@ -3,7 +3,6 @@ import logging
 
 class SKUMapper:
     def __init__(self, mapping_df):
-        # mapping_df: DataFrame with columns ['SKU','MSKU']
         self.map = dict(zip(mapping_df.SKU.str.upper(), mapping_df.MSKU))
         logging.basicConfig(level=logging.INFO)
 
