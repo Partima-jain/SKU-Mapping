@@ -1,0 +1,6 @@
+streamlit
+pandas
+sqlalchemy
+openpyxl       # Excel support
+pyyaml
+requests
